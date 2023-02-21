@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT + Gmail",
+    "version": "1.0.0",
+    "description": "This is an extension to combine Gmail with ChatGPT.",
+    "author": "Amir Zarie",
+    "action": {
+        "default_popup": "index.html"
+    }
+}
