@@ -11,9 +11,17 @@
         {
             "matches": ["https://mail.google.com/*"],
             "js": ["gmail_script.js"]
+        },
+        {
+            "matches": ["https://chat.openai.com/*"],
+            "js": ["gpt_script.js"]
         }
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "host_permissions": [
-        "https://mail.google.com/*"
+        "https://mail.google.com/*",
+        "https://chat.openai.com/*"
     ]
 }

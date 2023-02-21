@@ -4,10 +4,14 @@ window.onload = function () {
             const spans = document.querySelectorAll('span');
 
             for (const span of spans) {
-                if (span.innerText === 'Reply') {
+                if (span.innerText === 'Reply' && span.className != "mG") {
                     span.addEventListener('click', function() {
                         const email = document.querySelector('.adn.ads');
-                        console.log(email.textContent);
+                        (async function() {
+                            const gptResponse = await chrome.runtime.sendMessage(email.textContent);
+                            const gmailTextbox = document.querySelector('[role=textbox]');
+                            gmailTextbox.innerText = gptResponse;
+                        })();
                     });
                 }
             }
