@@ -2,6 +2,7 @@
 <p align="center">
   <img src="assets\gmailchatgpt_icon128.png" />
 </p>
+
 ## Description:
 - This extension enables users to reply to Gmails using ChatGPT.
 
