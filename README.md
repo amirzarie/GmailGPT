@@ -1,5 +1,5 @@
 # Gmail + ChatGPT
-("assets\gmailchatgpt_icon128.png")
+![Gmail + ChatGPT logo](assets\gmailchatgpt_icon128.png)
 ## Description:
 - This extension enables users to reply to Gmails using ChatGPT.
 
