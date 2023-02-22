@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "ChatGPT + Gmail",
+    "name": "Gmail + ChatGPT",
     "version": "1.0.0",
     "description": "This is an extension to combine Gmail with ChatGPT.",
     "author": "Amir Zarie",
@@ -23,5 +23,12 @@
     "host_permissions": [
         "https://mail.google.com/*",
         "https://chat.openai.com/*"
-    ]
+    ],
+    "icons": {
+        "16": "assets/gmailchatgpt_icon16.png",
+        "24": "assets/gmailchatgpt_icon24.png",
+        "32": "assets/gmailchatgpt_icon32.png",
+        "48": "assets/gmailchatgpt_icon48.png",
+        "128": "assets/gmailchatgpt_icon128.png"
+    }
 }
